@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.brauni.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_recipe"
+            app:destination="@id/recipe" />
+        <action
+            android:id="@+id/action_mainFragment_to_ingredients"
+            app:destination="@id/ingredients" />
+        <action
+            android:id="@+id/action_mainFragment_to_information2"
+            app:destination="@id/information2" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipe"
+        android:name="com.example.brauni.recipe"
+        android:label="fragment_recipe"
+        tools:layout="@layout/fragment_recipe" />
+    <fragment
+        android:id="@+id/ingredients"
+        android:name="com.example.brauni.ingredients"
+        android:label="fragment_ingredients"
+        tools:layout="@layout/fragment_ingredients" />
+    <fragment
+        android:id="@+id/information2"
+        android:name="com.example.brauni.information"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+</navigation>

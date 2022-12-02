@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ingredients">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  1. Шоколад (80%) або молочний – 100 г\n
+ 2. Цукор – 300 г\n
+ 3. Яйця – 5 шт.\n
+ 4. Какао-порошок – 5 ст. л.\n
+ 5. Масло вершкове – 200 г\n
+ 6. Борошно – 1,5 ст.\n
+ 7. Розпушувач тіста – 0,5 ч. л.\n
+ 8. Сіль – дрібка\n
+ 9. Олія – 1 ч. л."
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp" />
+
+</FrameLayout>

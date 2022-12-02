@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  1. Яйця з цукром збити міксером у пухку масу.\n
+ 2. Поламати шоколад, додати вершкове масло і розтопити на водяній бані.\n
+ 3. Обов’язково просіяти борошно та какао, додати розпушувач і сіль. Перемішати.\n
+ 4. З’єднати всі три маси в одну, перемішати. Тісто має бути середньої консистенції.\n
+ 5. Розігріти духовку до 180° С.\n
+ 6. Форму для запікання (брати з запасом, тісто збільшиться в об’ємі) змастити олією й присипати борошном.\n
+ 7. Вилити тісто у форму (можна посипати зверху товченими горішками у шоколаді). \n
+ 8. Випікати Брауні не більш ніж 20-25 хвилин."
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp" />
+
+</FrameLayout>
